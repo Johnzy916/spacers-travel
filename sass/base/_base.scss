@@ -14,3 +14,12 @@ html {
 body {
   box-sizing: border-box;
 }
+
+::selection {
+  background: $color-primary-dark; /* WebKit/Blink Browsers */
+  color: $color-grey-light-1;
+}
+::-moz-selection {
+  background: $color-primary-dark; /* Gecko Browsers */
+  color: $color-grey-light-1;
+}

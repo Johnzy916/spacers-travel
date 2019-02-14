@@ -7,7 +7,7 @@
     "watch:sass": "node-sass -w sass/main.scss css/style.css",
     "devserver": "live-server",
     "start": "npm-run-all --parallel devserver watch:sass",
-    
+
     "compile:sass": "node-sass sass/main.scss css/style.comp.css",
     "concat:css": "concat -o css/style.concat.css css/icon-font.css css/style.comp.css",
     "prefix:css": "postcss --use autoprefixer -b \"last 10 versions\" css/style.concat.css -o css/style.prefix.css",
@@ -16,14 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Johnzy916/udemy_css.git"
+    "url": "git+https://github.com/Johnzy916/natours.git"
   },
   "author": "Jhonathan Angus",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Johnzy916/udemy_css/issues"
+    "url": "https://github.com/Johnzy916/natours/issues"
   },
-  "homepage": "https://github.com/Johnzy916/udemy_css#readme",
+  "homepage": "https://github.com/Johnzy916/natours#readme",
   "devDependencies": {
     "autoprefixer": "^9.4.7",
     "concat": "^1.0.3",

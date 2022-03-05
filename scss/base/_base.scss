@@ -3,7 +3,7 @@
 *::after {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 html {
@@ -20,15 +20,6 @@ html {
 
   @include respond(big-desk) { // width > 1800
     font-size: 80%; // 1rem = 12px, 12/16 = 75%;
-  }
-}
-
-body {
-  box-sizing: border-box;
-  padding: 3rem;
-
-  @include respond(tab-port) {
-    padding: 0;
   }
 }
 

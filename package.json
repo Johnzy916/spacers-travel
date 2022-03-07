@@ -1,7 +1,7 @@
 {
-  "name": "natours",
+  "name": "spacers",
   "version": "1.0.0",
-  "description": "Landing page for Natours",
+  "description": "Spacers - Space Tours for Everyone",
   "main": "index.js",
   "scripts": {
     "start": "npx parcel index.html --open",
@@ -10,15 +10,16 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Johnzy916/natours.git"
+    "url": "git+https://github.com/Johnzy916/spacers-travel.git"
   },
   "author": "Jhonathan Angus",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Johnzy916/natours/issues"
+    "url": "https://github.com/Johnzy916/spacers-travel/issues"
   },
-  "homepage": "https://github.com/Johnzy916/natours#readme",
+  "homepage": "https://github.com/Johnzy916/spacers-travel#readme",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.3.2",
     "parcel": "latest"
   }
 }

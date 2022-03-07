@@ -44,7 +44,7 @@
   &__img {
     height: 100%;
     background-size: cover;
-    transform: translateX(-4rem) scale(1.4);
+    transform: translate(-4rem, 3rem)  scale(1.4);
     backface-visibility: hidden;
     transition: all .5s;
   }

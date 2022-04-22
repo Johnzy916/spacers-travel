@@ -2,7 +2,6 @@
   "name": "spacers",
   "version": "1.0.0",
   "description": "Spacers - Space Tours for Everyone",
-  "main": "index.js",
   "scripts": {
     "start": "npx parcel index.html --open",
     "build": "npx parcel build index.html"

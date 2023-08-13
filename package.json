@@ -21,6 +21,7 @@
   "homepage": "https://github.com/Johnzy916/spacers-travel#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.3.2",
+    "gh-pages": "^6.0.0",
     "parcel": "latest"
   }
 }

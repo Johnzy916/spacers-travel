@@ -4,7 +4,9 @@
   "description": "Spacers - Space Tours for Everyone",
   "scripts": {
     "start": "npx parcel index.html --open",
-    "build": "npx parcel build index.html --public-url ./"
+    "build": "npx parcel build index.html --public-url ./",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "repository": {
